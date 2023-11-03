@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header h1{
+    text-align:center;
+    padding:30px 30px;
+    text-transform :uppercase ;
+}
+main form{
+    padding:30px 30px;
+    text-align:center;
+}
+input,button{
+    padding:5px;
+    border:none;
+
+}
+form label{
+    font-weight:bold;
+    text-transform:uppercase;
+
+}
+button{
+    background-color: #b9b5b4;
+    cursor:pointer;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:white;
+}
+button:hover{
+    background-color: #686362;
+}
+li.done{
+    text-decoration: line-through;
+}
+
+li{
+    text-align:center;
+}
